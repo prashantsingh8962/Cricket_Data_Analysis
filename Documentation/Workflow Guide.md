@@ -19,5 +19,8 @@ We have to analyze to find the best players to be in our cricket team.
    D. [t20_wc_player_info.json](https://github.com/prashantsingh8962/Webscraping_Cricket_Analysis/blob/main/Json%20Code/t20_wc_player_info.json)<br>
 
  
-3. After web scrapping, we did some data transformation in Pandas-python. And convert JSON to CSV files.
+3. After web scrapping, we did some data preprocessing in Pandas-python. And convert JSON to CSV files.
 
+    [Python Code](https://github.com/prashantsingh8962/Webscraping_Cricket_Analysis/blob/main/Python%20Code/t20_data_preprocessing.ipynb)
+
+4. We fetched data in Power BI and started building dashboards

@@ -95,3 +95,5 @@ We have to analyze to find the best players to be in our cricket team.
     dim_player[name] = ""Shaheen Shah Afridi"" ,10,
     dim_player[name] = ""Anrich Nortje"" ,11
     )"	dim_player
+
+5. 

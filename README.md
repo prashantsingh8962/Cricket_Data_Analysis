@@ -45,21 +45,6 @@ Data preprocessing was conducted using Pandas in Python. The extracted JSON file
 
 We utilized Power BI to create dashboards for visualizing player performance metrics based on the preprocessed data.
 
-### Measures Created
-
-| Sno | Measures                     | Description                                           | DAX Formula                                                                 | Table                     |
-|-----|------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------|---------------------------|
-| 1   | Total Runs                   | Total runs scored by the batsman                     | `Total Runs = SUM(fact_batting_summary[runs])`                           | fact_batting_summary      |
-| 2   | Total Innings Batted         | Total innings a batsman got to bat                   | `Total Innings Batted = COUNT(fact_batting_summary[match_id])`            | fact_batting_summary      |
-| 3   | Total Innings Dismissed      | Number of innings batsman got out                    | `SUM(fact_batting_summary[out])`                                          | fact_batting_summary      |
-| ... | ...                          | ...                                                  | ...                                                                         | ...                       |
-
-### Calculated Columns Created
-
-| Sno | Calculated Column Name       | Description                                            | DAX Formula                                                             | Table         |
-|-----|------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------|---------------|
-| 1   | Boundary Runs                | Total runs scored by hitting fours and sixes         | `boundary runs = fact_batting_summary[fours]*4 + fact_batting_summary[sixes]*6` | fact_batting_summary |
-| 2   | Custom Batting Order         | Assign batting order to potential final 11           | `SWITCH(TRUE(), ...)`                                                  | dim_player    |
-
+[Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZjM3ODg3MDItMGRjMi00NTc5LTg0YWQtYWY1OGVhNThkMjk4IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 Feel free to contribute to this project or explore the code and data files! For any questions, please open an issue on GitHub.

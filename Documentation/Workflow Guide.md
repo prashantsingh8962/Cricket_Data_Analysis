@@ -96,4 +96,4 @@ We have to analyze to find the best players to be in our cricket team.
     dim_player[name] = ""Anrich Nortje"" ,11
     )"	dim_player
 
-5. 
+5. We created a dashboard using all these measures and columns. 

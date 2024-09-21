@@ -47,4 +47,7 @@ We utilized Power BI to create dashboards for visualizing player performance met
 
 [Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZjM3ODg3MDItMGRjMi00NTc5LTg0YWQtYWY1OGVhNThkMjk4IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
+![dashboard](https://github.com/prashantsingh8962/Webscraping_Cricket_Analysis/blob/main/Resources/Screenshot%202024-09-20%20234713.png)  
+
+
 Feel free to contribute to this project or explore the code and data files! For any questions, please open an issue on GitHub.
